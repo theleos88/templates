@@ -1,0 +1,51 @@
+\documentclass[english, a4paper,12pt]{report}
+\usepackage[left=2cm,right=2cm,top=3.5cm,bottom=3cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}
+\usepackage{etoolbox}
+\usepackage{babel,blindtext}
+\usepackage{multirow}
+\usepackage{afterpage}
+\usepackage{scrextend}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[font=footnotesize, labelfont={bf},textfont={it}]{caption} 
+\usepackage[final]{graphicx}
+\usepackage{subfig}
+
+%% DICTIONARY
+\def\de{Caesar}
+\def\ie{i.e.}
+\def\eg{e.g.}
+
+\begin{document}
+
+\title{\LARGE {\bf A title}}
+\author{Leonardo Linguaglossa}
+
+
+\maketitle
+
+%\part{Part1}
+%\pagestyle{uheadings}
+
+\cleardoublepage
+
+\setcounter{secnumdepth}{3}
+\setcounter{page}{1}
+
+\input{sec/sec1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\appendix
+% appendices come here
+
+\cleardoublepage
+
+%\clearpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{amsalpha}
+\bibliography{bibliography/bibliography}
+
+
+\end{document}
