@@ -14,3 +14,7 @@ It contains the most basic functionalities:
 - grid x,y
 - set xtics
 - set Titles
+
+### Empty latex-doc
+
+This doc contains a "book" version. Makefile and bibliography included.
