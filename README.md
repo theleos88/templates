@@ -1,20 +1,12 @@
 # templates
-This repo contains the templates files for a linux system.
+This repo contains useful templates (mostly for Linux) useful for research, data visualization, slides, text.
 
 ## List of existing templates
 
-### Empty odt (OpenOffice File).
+- gnuplot
+- latex
+- slides/posters
+- text
 
-Self-explanatory.
 
-### Empty gnuplot file
 
-It contains the most basic functionalities:
-
-- grid x,y
-- set xtics
-- set Titles
-
-### Empty latex-doc
-
-This doc contains a "book" version. Makefile and bibliography included.
