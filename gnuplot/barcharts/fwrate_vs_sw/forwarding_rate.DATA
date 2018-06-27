@@ -1,0 +1,20 @@
+USE-CASE			"VPP XC"	"VPP IP (130k)"	"L3FWD (130k)" 	"VPP (700k)" 	"L3FWD (700k)"
+"Single core"			12.02		9.22		7.47		0		7.43
+"Single core (worker)"		12.97		9.94		0		0		0
+"2 threads 1 core"		14.10		11.11		14.88		11.06		14.88
+"2 threads 2 cores"		14.88		14.88		14.88		14.88		14.88
+
+
+
+#"vpp_1704_xc"			12.02
+#"vpp_1704_xc_worker"		12.97
+#"vpp_1704_xc_2cores"		14.88
+#"vpp_1704_ip"			9.22
+#"vpp_1704_ip_worker"		9.94
+#"vpp_1704_ip_2cores"		14.88
+#"vpp_1710_xc"			0
+#"vpp_1710_xc_worker"		0
+#"vpp_1710_ip_worker"		0
+#"vpp_1710_ip_2cores"		14.88
+#"l3fwd_sc"			0
+#"l3fwd_2cores"			14.88
