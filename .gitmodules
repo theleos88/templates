@@ -1,0 +1,3 @@
+[submodule "plot-with-gnuplot"]
+	path = plot-with-gnuplot
+	url = git@github.com:theleos88/plot-with-gnuplot.git
