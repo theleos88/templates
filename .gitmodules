@@ -1,3 +1,6 @@
 [submodule "plot-with-gnuplot"]
 	path = plot-with-gnuplot
 	url = git@github.com:theleos88/plot-with-gnuplot.git
+[submodule "latex/response_letter"]
+	path = latex/response_letter
+	url = https://github.com/theleos88/response_letter
