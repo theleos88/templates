@@ -4,3 +4,6 @@
 [submodule "latex/response_letter"]
 	path = latex/response_letter
 	url = https://github.com/theleos88/response_letter
+[submodule "latex/latex-simple-doc"]
+	path = latex/latex-simple-doc
+	url = https://github.com/theleos88/latex-simple-doc.git
